@@ -22,11 +22,20 @@ int main(){
     Code blooooooooock
     */
 
-   int PlayerGuess;
+    int GuessA, GuessB, GuessC;
+    std::cin >> GuessA;
+    std::cin >> GuessB;
+    std::cin >> GuessC;
 
-   std::cin >> PlayerGuess;
+    int GuessSum = GuessA + GuessB + GuessC;
+    int GuessProduct = GuessA * GuessB * GuessC;
 
-   std::cout << "You have entered: " << PlayerGuess;
+    if (GuessSum == CodeSum && GuessProduct == CodeProduct){
+        std::cout << "You win!";
+    }
+    else {
+        std::cout << "You lose :(";
+    }
 
     return 0;
 }
