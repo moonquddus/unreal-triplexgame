@@ -16,5 +16,7 @@ int main(){
     std::cout << sum << std::endl;
     std::cout << product << std::endl;
 
+    // I'm putting a comment here because the video tutorial told me to.
+
     return 0;
 }
