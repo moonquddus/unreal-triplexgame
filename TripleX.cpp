@@ -17,6 +17,9 @@ int main(){
     std::cout << product << std::endl;
 
     // I'm putting a comment here because the video tutorial told me to.
+    /*
+    Code blooooooooock
+    */
 
     return 0;
 }
