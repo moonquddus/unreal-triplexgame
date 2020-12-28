@@ -5,21 +5,24 @@ int main(){
     std::cout << std::endl;
     std::cout << "But first, you need to work out those finger-licking good codes...";
 
-    int a = 4;
-    int b = 5;
-    int c = 6;
+    int CodeA = 4;
+    int CodeB = 5;
+    int CodeC = 6;
 
-    int sum = a + b + c;
-    int product = a * b * c;
+    int CodeSum = CodeA + CodeB + CodeC;
+    int CodeProduct = CodeA * CodeB * CodeC;
 
     std::cout << std::endl;
-    std::cout << sum << std::endl;
-    std::cout << product << std::endl;
+    std::cout << "- There are 3 digits in the code." << std::endl;
+    std::cout << "- The codes add up to: " << CodeSum << std::endl;
+    std::cout << "- The codes multiply to give: " << CodeProduct << std::endl;
 
     // I'm putting a comment here because the video tutorial told me to.
     /*
     Code blooooooooock
     */
+
+   int PlayerGuess;
 
     return 0;
 }
