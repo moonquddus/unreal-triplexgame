@@ -9,8 +9,10 @@ int main(){
     int b = 5;
     int c = 6;
 
+    int sum = a + b + c;
+
     std::cout << std::endl;
-    std::cout << a + b + c;
+    std::cout << sum;
 
 
     return 0;
